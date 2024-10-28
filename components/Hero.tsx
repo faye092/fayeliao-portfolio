@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -46,14 +47,30 @@ const Hero = () => {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                 Hi, I&apos;m Faye, a FullStack Developer base in Munich, Germany.
             </p>
+            <div className='md:flex items-center md:gap-8'>
+              <div>
+                <Link href="#about">
+                  <MagicButton 
+                    title="Show my work"
+                    icon={<FaLocationArrow />}
+                    position='right'
+                  />
+                </Link>
+              </div>
 
-            <a href="#about">
-                <MagicButton 
-                  title="Show my work"
-                  icon={<FaLocationArrow />}
-                  position='right'
-                />
-            </a>
+              <div className='mt-10'>
+              <Link href="/">
+                  <button 
+                    className="md:px-[34px] px-28 py-[10px] bg-transparent border border-black dark:border-white 
+                             dark:text-white text-black rounded-lg transform hover:-translate-y-1 
+                            transition duration-300"
+                  >
+                    Download Resume
+                  </button>
+                </Link>
+              </div>
+            </div>
+            
         </div>
       </div>
 
