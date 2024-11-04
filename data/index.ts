@@ -73,19 +73,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      title: "EVPoint - EV charging application in Germany",
+      des: "Simplify EV charging experience with EVPoint. Seamlessly connect with the EV charger and get car charged.",
+      img: "/EVcharging.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/expo.svg", "/firebase.svg"],
+      link: "/ui.evpoint.com",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Elysium Energy - Drive energy decentralization",
+      des: "Design, Simulate and de-risk energy storage investments for secure, low-cost, clean energy supply",
+      img: "/Energy.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://elysium-energy.com/",
     },
     {
       id: 3,
