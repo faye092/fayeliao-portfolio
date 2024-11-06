@@ -16,7 +16,7 @@ function Experience() {
   ];
     
   return (
-    <div className='py-20' id="projects">
+    <div className='py-20' id="Experience">
       <div className='flex flex-col items-center justify-center'>
         <TypewriterEffectSmooth words={words} />
       </div>
