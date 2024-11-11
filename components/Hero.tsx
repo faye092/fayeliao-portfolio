@@ -59,7 +59,7 @@ const Hero = () => {
               </div>
 
               <div className='mt-10'>
-              <Link href="/">
+              <a href="/FeiLiaoResume.pdf" target='_blank' rel="noopener noreferrer">
                   <button 
                     className="md:px-[34px] px-28 py-[10px] bg-transparent border border-black dark:border-white 
                              dark:text-white text-black rounded-lg transform hover:-translate-y-1 
@@ -67,7 +67,7 @@ const Hero = () => {
                   >
                     Download Resume
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
             

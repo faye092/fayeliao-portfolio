@@ -108,33 +108,27 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Exceeded expectations with innovative designs. A true asset for any frontend development project.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Exceeded expectations with innovative designs. A true asset for any frontend development project. Faye's enthusiasm for every facet of development truly stands out.",
+      name: "Michael Livingstone",
+      title: "Founder/CEO DustiD",
     },
     {
       quote:
         "Reliable, deadline-oriented developer. Crafted interactive designs that truly engage and captivate users.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Ravdeep Singh",
+      title: "Technical Director of DustiD",
     },
     {
       quote:
-        "Effortlessly blended creativity with functionality. Played a pivotal role in our app's success.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Effortlessly blended creativity with functionality. Played a pivotal role in our app's success. If you're seeking to elevate your website and elevate your brand, Faye is the ideal partner.",
+      name: "Foivos Maniatis",
+      title: "CEO, Co-founder of Elysium Energy",
     },
     {
       quote:
-        "Collaborating with Faye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Faye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Faye was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+      name: "Ignacio Moreno",
+      title: "CTO, Co-founder of Elysium Energy",
     },
   ];
   
@@ -174,29 +168,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Developer",
+      desc: "Built interactive and responsive web interfaces using React.js, focusing on user experience and modern design principles. Utilized Tailwind CSS for efficient styling and reusable components.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Full Stack Developer (React Native Project)",
+      desc: "Developed a full stack application using React, optimizing performance with static site generation and API routes. Implemented TypeScript for better scalability and error management.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Web Developer(Next.js Project)",
+      desc: "Designed and built a web application from scratch using Next.js. Focused on component-driven development, following modern web standards.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Frontend Developer (Independent Learning Project)",
+      desc: "Developed and maintained user-facing features using moDeveloped and maintained various user interfaces using React and Next.js. Focused on enhancing user experience, state management, and API integrations, with a strong emphasis on responsiveness.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -206,13 +200,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/faye092"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link:"/"
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/fei-liao-a40a11209/"
     },
   ];
